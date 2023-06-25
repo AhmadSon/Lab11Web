@@ -164,13 +164,20 @@ Selanjutnya, pilih tab <b>Body</b>. Kemudian, pilih <b>x-www-form-uriencoded</b>
 ![gambar 05](Image/put.png)<P>
 
 - <b>Menambahkan Data</b><p>
-Anda perlu menggunakan method POST untuk menambahkan data baru ke database. Kemudian, masukkan URL berikut:<p>
+Anda perlu menggunakan method <b>POST</b> untuk menambahkan data baru ke database. Kemudian, masukkan URL berikut:<p>
 ```bash
 http://localhost:8080/post
 ```
-Pilih tab Body, lalu pilih x-www-form-uriencoded. Masukkan atribut tabel pada kolom KEY dan nilai data baru di kolom VALUE. Jangan lupa, klik Send.<p>
+Pilih tab <b>Body</b>, lalu pilih <b>x-www-form-uriencoded</b>. Masukkan atribut tabel pada kolom <b>KEY</b> dan nilai data baru di kolom <b>VALUE</b>. Jangan lupa, klik <b>Send</b>.<p>
 ![gambar 06](Image/post.png)<p>
 
+- <b>Menghapus Data</b><p>
+Pilih method <b>DELETE</b> untuk menghapus data. Lalu, masukkan URL spesifik data mana yang ingin di hapus. Misalnya, ingin menghapus data nomor 4, maka URL-nya seperti ini:<p>
+```bash
+http://localhost:8080/post/4
+```
+Langsung saja klik <b>Send</b>, maka akan mendapatkan pesan bahwa data telah berhasil dihapus dari database.<p>
+![gambar 07](Image/delete.png)<p>
 
 # END
 ![Gambar 13](Image/anime-love.gif)
