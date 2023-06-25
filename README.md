@@ -14,6 +14,14 @@
 </body>
 
 # Tugas Pratikum 14
+untuk menjalankan program ketik 
+```bash
+php spark
+```
+pada folder ci4 dan 
+```bash
+php spark serve
+```
 ## API
 ## Langkah - langkah Praktikum
 - <b>Persiapan</b><p>
