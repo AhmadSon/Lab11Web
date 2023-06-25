@@ -163,6 +163,13 @@ http://localhost:8080/post/2
 Selanjutnya, pilih tab <b>Body</b>. Kemudian, pilih <b>x-www-form-uriencoded</b>. Masukkan nama atribut tabel pada kolom <b>KEY</b> dan nilai data yang baru pada kolom <b>VALUE</b>. Kalau sudah, klik <b>Send</b>.<p>
 ![gambar 05](Image/put.png)<P>
 
+- <b>Menambahkan Data</b><p>
+Anda perlu menggunakan method POST untuk menambahkan data baru ke database. Kemudian, masukkan URL berikut:<p>
+```bash
+http://localhost:8080/post
+```
+Pilih tab Body, lalu pilih x-www-form-uriencoded. Masukkan atribut tabel pada kolom KEY dan nilai data baru di kolom VALUE. Jangan lupa, klik Send.<p>
+![gambar 06](Image/post.png)<p>
 
 
 # END
