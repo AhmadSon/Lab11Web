@@ -134,6 +134,10 @@ Selanjutnya akan muncul daftar route yang telah dibuat.<p>
 Seperti yang terlihat, satu baris kode routes yang di tambahkan akan menghasilkan banyak Endpoint.<p>
 Selanjutnya melakukan uji coba terhadap REST API CodeIgniter.<p>
 
+- <b>Testing REST API CodeIgniter</b><p>
+Buka aplikasi postman dan pilih create new → HTTP Request<p>
+![gambar 02](Image/HTTP.png)
+
 
 # END
 ![Gambar 13](Image/anime-love.gif)
