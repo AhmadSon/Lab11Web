@@ -120,5 +120,20 @@ Kode diatas berisi 5 method, yaitu:<p>
 • update() – Berfungsi untuk mengubah suatu data pada database.<p>
 • delete() – Berfungsi untuk menghapus data dari database.<p>
 
+- <b>Membuat Routing REST API</b><p>
+Untuk mengakses REST API CodeIgniter, kita perlu mendefinisikan route-nya terlebih dulu. Caranya, masuklah ke direktori app/Config dan bukalah file Routes.php. Tambahkan kode di bawah ini:<p>
+```bash
+$routes->resource('post');
+```
+Untuk mengecek route nya jalankan perintah berikut:<p>
+```bash
+php spark routes
+```
+Selanjutnya akan muncul daftar route yang telah dibuat.<p>
+![gambar 01](Image/routs.png)<p>
+Seperti yang terlihat, satu baris kode routes yang di tambahkan akan menghasilkan banyak Endpoint.<p>
+Selanjutnya melakukan uji coba terhadap REST API CodeIgniter.<p>
+
+
 # END
 ![Gambar 13](Image/anime-love.gif)
