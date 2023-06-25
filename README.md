@@ -146,6 +146,14 @@ http://localhost:8080/post
 Lalu, klik Send. Jika hasil test menampilkan semua data artikel dari database, maka pengujian berhasil.<p>
 ![gambar 03](Image/1.png)<p>
 
+- <b>Menampilkan Data Spesifik</b><p>
+Masih menggunakan method GET, hanya perlu menambahkan ID artikel di belakang URL seperti ini:<p>
+```bash
+http://localhost:8080/post/2
+```
+Selanjutnya, klik Send. Request tersebut akan menampilkan data artikel yang memiliki ID nomor 2 di database.<p>
+![gambar 04](Image/2.png)<p>
+
 
 
 # END
