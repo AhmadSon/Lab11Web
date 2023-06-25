@@ -155,6 +155,15 @@ Selanjutnya, klik Send. Request tersebut akan menampilkan data artikel yang memi
 ![gambar 04](Image/2.png)<p>
 
 
+- <b>Mengubah Data</b><p>
+Untuk mengubah data, silakan ganti method menjadi <b>PUT</b>. Kemudian, masukkan URL artikel yang ingin diubah. Misalnya, ingin mengubah data artikel dengan ID nomor 2, maka masukkan URL berikut:<p>
+```bash
+http://localhost:8080/post/2
+```
+Selanjutnya, pilih tab <b>Body</b>. Kemudian, pilih <b>x-www-form-uriencoded</b>. Masukkan nama atribut tabel pada kolom <b>KEY</b> dan nilai data yang baru pada kolom <b>VALUE</b>. Kalau sudah, klik <b>Send</b>.<p>
+![gambar 05](Image/put.png)<P>
+
+
 
 # END
 ![Gambar 13](Image/anime-love.gif)
