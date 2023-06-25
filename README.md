@@ -138,6 +138,15 @@ Selanjutnya melakukan uji coba terhadap REST API CodeIgniter.<p>
 Buka aplikasi postman dan pilih create new → HTTP Request<p>
 ![gambar 02](Image/HTTP.png)
 
+- <b>Menampilkan Semua Data</b><p>
+Pilih method GET dan masukkan URL berikut:<p>
+```bash
+http://localhost:8080/post
+```
+Lalu, klik Send. Jika hasil test menampilkan semua data artikel dari database, maka pengujian berhasil.<p>
+![gambar 03](Image/1.png)<p>
+
+
 
 # END
 ![Gambar 13](Image/anime-love.gif)
